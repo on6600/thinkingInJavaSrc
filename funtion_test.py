@@ -40,7 +40,7 @@ class NewVisitorTest(unittest.TestCase):
 		inputbox.send_keys(Keys.ENTER)
 		time.sleep(1)
 		
-		self.check_for_row_in_list_table('1:Buy peackco feathers')
+		self.check_for_row_in_list_table('1:Buy peacock feathers')
 		self.check_for_row_in_list_table('2:Use peacock feathers to make a fly')
 		
 		table = self.browser.find_element_by_id('id_list_table')
